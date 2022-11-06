@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "scello-coupon-db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "loremdba",
+    "password": "+5J+]-KTw$JcWVJ<",
+    "database": "scello-coupon-db",
+    "host": "172.31.13.162",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "loremdba",
+    "password": "+5J+]-KTw$JcWVJ<",
+    "database": "scello-coupon-db",
+    "host": "172.31.13.162",
+    "dialect": "postgres"
+  }
+}
