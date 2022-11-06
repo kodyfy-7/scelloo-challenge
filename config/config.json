@@ -7,17 +7,17 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "loremdba",
-    "password": "+5J+]-KTw$JcWVJ<",
-    "database": "scello-coupon-db",
-    "host": "172.31.13.162",
+    "username": "postgres",
+    "password": "D7E23dHucrXJT6xvJ6Th",
+    "database": "railway",
+    "host": "containers-us-west-98.railway.app",
     "dialect": "postgres"
   },
   "production": {
-    "username": "loremdba",
-    "password": "+5J+]-KTw$JcWVJ<",
-    "database": "scello-coupon-db",
-    "host": "172.31.13.162",
+    "username": "postgres",
+    "password": "D7E23dHucrXJT6xvJ6Th",
+    "database": "railway",
+    "host": "containers-us-west-98.railway.app",
     "dialect": "postgres"
   }
 }
