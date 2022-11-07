@@ -12,12 +12,74 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-     await queryInterface.bulkInsert('Products', [{
+     await queryInterface.bulkInsert('Products', [
+      {
         productName: 'Product 1',
+        productPrice: 50,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 2',
+        productPrice: 100,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 3',
+        productPrice: 100,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 4',
         productPrice: 1000,
         createdAt: new Date(),
         updatedAt: new Date()
-      }], {});
+      },
+      {
+        productName: 'Product 5',
+        productPrice: 50,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 6',
+        productPrice: 100,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 7',
+        productPrice: 100,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 8',
+        productPrice: 1000,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 9',
+        productPrice: 100,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 10',
+        productPrice: 1000,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        productName: 'Product 11',
+        productPrice: 1000,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      }
+    ], {});
   },
 
   async down (queryInterface, Sequelize) {
