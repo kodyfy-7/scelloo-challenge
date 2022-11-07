@@ -1,23 +1,23 @@
 {
   "development": {
     "username": "postgres",
-    "password": "password",
-    "database": "scello-coupon-db",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "password": "QCVLvev2LRkUKBN7pFfH",
+    "database": "railway",
+    "host": "containers-us-west-97.railway.app",
+    "dialect": "mysql"
   },
   "test": {
     "username": "postgres",
-    "password": "D7E23dHucrXJT6xvJ6Th",
+    "password": "QCVLvev2LRkUKBN7pFfH",
     "database": "railway",
-    "host": "containers-us-west-98.railway.app",
-    "dialect": "postgres"
+    "host": "containers-us-west-97.railway.app",
+    "dialect": "mysql"
   },
   "production": {
     "username": "postgres",
-    "password": "D7E23dHucrXJT6xvJ6Th",
+    "password": "QCVLvev2LRkUKBN7pFfH",
     "database": "railway",
-    "host": "containers-us-west-98.railway.app",
-    "dialect": "postgres"
+    "host": "containers-us-west-97.railway.app",
+    "dialect": "mysql"
   }
 }
